@@ -19,5 +19,8 @@ public class Main {
         toBeReversed = sc.next();
         //Pass string to reverser and get reversed string output
         reversedString = stringReverser.reverseString(toBeReversed);
+
+        System.out.println("The reversal result is: ");
+        System.out.println(reversedString);
     }
 }
